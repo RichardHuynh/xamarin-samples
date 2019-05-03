@@ -6,11 +6,11 @@ using Android.App;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("decodelistener")]
+[assembly: AssemblyTitle("DecodeConfigSampleAPI")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("DLS")]
-[assembly: AssemblyProduct("decodelistener")]
+[assembly: AssemblyProduct("DecodeConfigSampleAPI")]
 [assembly: AssemblyCopyright("Copyright © DLS 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -29,4 +29,5 @@ using Android.App;
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
+// Use the Datalogic scanning library present on the device.
 [assembly: UsesLibrary("com.datalogic.device", true)]
